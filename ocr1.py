@@ -59,6 +59,6 @@ if __name__ == '__main__':
 
             logmessage(os.path.basename(f_in)[:-4])
 
-        print(f'\n{len(files)} done; time taken: {round(time.time() - start,2)} seconds.')
+        logmessage(f'\n{len(files)} done; time taken: {round(time.time() - start,2)} seconds.')
 
  
